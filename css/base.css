@@ -1,0 +1,112 @@
+/* =====================================================
+   NOMADÍA WEB V1
+   BASE
+===================================================== */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* Variables */
+
+:root{
+
+    --color-primary:#081B33;
+    --color-secondary:#102845;
+    --color-white:#ffffff;
+    --color-text:#bfc8d4;
+    --color-gold:#d4af37;
+    --color-border:rgba(255,255,255,.08);
+
+    --font-title:'Cormorant Garamond',serif;
+    --font-text:'Montserrat',sans-serif;
+
+    --container:1240px;
+
+    --transition:.35s ease;
+
+}
+
+/* Reset */
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:var(--font-text);
+    background:var(--color-primary);
+    color:var(--color-white);
+    overflow-x:hidden;
+    line-height:1.6;
+
+}
+
+/* Fondo */
+
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    inset:0;
+
+    background:
+    radial-gradient(circle at 70% 20%,
+    rgba(41,75,124,.35),
+    transparent 45%);
+
+    pointer-events:none;
+
+    z-index:-1;
+
+}
+
+/* Contenedor */
+
+.container{
+
+    width:min(var(--container),calc(100% - 80px));
+
+    margin:auto;
+
+}
+
+/* Generales */
+
+img{
+
+    display:block;
+    max-width:100%;
+
+}
+
+a{
+
+    text-decoration:none;
+    color:inherit;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+section{
+
+    position:relative;
+
+}

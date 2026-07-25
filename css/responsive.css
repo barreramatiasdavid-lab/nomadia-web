@@ -1,0 +1,396 @@
+/*======================================================
+RESPONSIVE
+NOMADÍA TRAVEL
+======================================================*/
+
+/*======================================================
+NOTEBOOK
+======================================================*/
+
+@media (max-width:1400px){
+
+.container{
+
+    width:min(92%,1200px);
+
+}
+
+.hero h1{
+
+    font-size:4.8rem;
+
+}
+
+.hero-grid{
+
+    gap:70px;
+
+}
+
+}
+
+/*======================================================
+TABLET
+======================================================*/
+
+@media (max-width:1100px){
+
+/* HEADER */
+
+.navbar{
+
+    height:90px;
+
+}
+
+.menu{
+
+    gap:34px;
+
+}
+
+.logo-main{
+
+    font-size:2.7rem;
+
+}
+
+/* HERO */
+
+.hero{
+
+    padding:80px 0;
+
+    min-height:auto;
+
+}
+
+.hero-grid{
+
+    grid-template-columns:1fr;
+
+    gap:70px;
+
+}
+
+.hero-content{
+
+    max-width:100%;
+
+    text-align:center;
+
+}
+
+.hero-kicker::after{
+
+    margin:18px auto 0;
+
+}
+
+.hero-text{
+
+    margin-left:auto;
+
+    margin-right:auto;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.hero-image{
+
+    height:600px;
+
+    border-radius:40px;
+
+}
+
+/* GRID 3 */
+
+.process-grid,
+.testimonials-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.process-card,
+.testimonial-card{
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+/* GRID 4 */
+
+.destinations-grid,
+.benefits-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+/*======================================================
+MOBILE Y TABLET
+======================================================*/
+
+@media (max-width:900px){
+
+.menu{
+
+    display:none;
+
+}
+
+.btn-whatsapp{
+
+    display:none;
+
+}
+
+.menu-toggle{
+
+    display:block;
+
+}
+
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    padding: 0 20px;
+
+    align-items:center;
+
+}
+
+}
+
+/*======================================================
+CELULAR
+======================================================*/
+
+@media (max-width:768px){
+
+.header{
+
+    padding:0 20px;
+
+}
+
+.navbar{
+
+    height:82px;
+
+}
+
+.logo-main{
+
+    font-size:2.2rem;
+
+}
+
+.logo-sub{
+
+    font-size:.72rem;
+
+    letter-spacing:7px;
+
+}
+
+/* HERO */
+
+.hero{
+
+    padding:60px 0;
+
+}
+
+.hero h1{
+
+    font-size:3.3rem;
+
+    line-height:1;
+
+}
+
+.hero-text{
+
+    font-size:1.05rem;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.hero-buttons .btn{
+
+    width:100%;
+
+    max-width:340px;
+
+}
+
+.hero-image{
+
+    width:90%;
+
+    max-width:360px;
+
+    height:420px;
+
+    margin:0 auto;
+
+}
+
+/* TITULOS */
+
+.section-heading h2,
+.section-title,
+.cta h2{
+
+    font-size:2.8rem;
+
+    line-height:1.2;
+
+}
+
+.section-heading{
+
+    margin-bottom:70px;
+
+}
+
+/* DESTINOS */
+
+.destinations-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+/* BENEFICIOS */
+
+.benefits-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+/* PROCESO */
+
+.process-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+/* TESTIMONIOS */
+
+.testimonials-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+/* CTA */
+
+.cta{
+
+    padding:120px 0;
+
+}
+
+.cta p{
+
+    font-size:1.05rem;
+
+}
+
+/* FOOTER */
+
+.footer-contact{
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.footer-contact span{
+
+    display:none;
+
+}
+
+.footer-logo img{
+
+    width:190px;
+
+}
+
+}
+
+/*======================================================
+CELULARES PEQUEÑOS
+======================================================*/
+
+@media (max-width:480px){
+
+.hero h1{
+
+    font-size:2.7rem;
+
+}
+
+.section-heading h2,
+.section-title,
+.cta h2{
+
+    font-size:2.2rem;
+
+}
+
+.process-card,
+.benefit-card,
+.testimonial-card{
+
+    padding:34px;
+
+}
+
+.number,
+.benefit-number{
+
+    font-size:5rem;
+
+}
+
+.quote{
+
+    font-size:5rem;
+
+}
+
+.hero-image{
+
+    height:340px;
+
+}
+
+}

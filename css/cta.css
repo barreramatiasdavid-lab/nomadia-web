@@ -1,0 +1,88 @@
+/*======================================================
+CTA FINAL
+======================================================*/
+
+.cta{
+
+    position:relative;
+
+    padding:180px 0;
+
+    overflow:hidden;
+
+    background-image:url("../assets/images/cta.png");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+}
+
+.cta-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+        linear-gradient(
+            rgba(8,27,51,.58),
+            rgba(8,27,51,.72)
+        );
+
+}
+
+.cta .container{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.cta-content{
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.cta h2{
+
+    font-family:var(--font-title);
+
+    font-size:4.5rem;
+
+    line-height:1.15;
+
+    margin:25px 0 35px;
+
+}
+
+.cta p{
+
+    max-width:700px;
+
+    margin:0 auto 50px;
+
+    color:var(--color-text);
+
+    font-size:1.18rem;
+
+    line-height:1.8;
+
+}
+
+.cta .btn{
+
+    padding:20px 52px;
+
+    font-size:1rem;
+
+}
